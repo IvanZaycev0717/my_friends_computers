@@ -3,7 +3,7 @@ import sqlite3 as sq
 
 
 def create_db():
-
+    """Создает папку data, создает база данных с таблицами."""
     path = os.path.dirname(os.path.abspath(__file__)) + r"\data"
     isExist = os.path.exists(path)
     if not isExist:

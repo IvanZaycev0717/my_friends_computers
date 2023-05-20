@@ -18,7 +18,7 @@ from validators import (ComputerValidator, FriendsValidators,
 class App(ttk.Window):
     """Создает главное окно программы."""
 
-    def __init__(self, title, size):
+    def __init__(self, title: str, size: tuple):
 
         # Инициализатор родительского класса
         super().__init__(themename='journal')
