@@ -34,7 +34,7 @@ _Перед установкой у вас должен уже быть уста
 
 ### :penguin: для Linux/Ubuntu
 1. Скопируйте репозиторий к себе на компьютер по SSH-ключу
-```git@github.com:IvanZaycev0717/my_friends_computers.git``
+```git@github.com:IvanZaycev0717/my_friends_computers.git```
 
 2. Установите виртуальное окружение
 ```python3 -m venv env```
