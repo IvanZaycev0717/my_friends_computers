@@ -256,7 +256,10 @@ class App(ttk.Window):
                     else:
                         data = self.get_full_info(self.comp_obj.read(i[0]))
                         if data is not None:
-                            self.table_computers.insert(parent='', index=0, values=data)
+                            self.table_computers.insert(parent='',
+                                                        index=0,
+                                                        values=data
+                                                        )
 
     def update_table(self):
         """Обновляет таблицу с компьютерами друзей."""
@@ -327,8 +330,9 @@ class App(ttk.Window):
             следующие компьютеры: '''
         doc.build(story)
         pdf_file.seek(0)
-        with open(file_path, 'wb') as f:
-            f.write(pdf_file.getbuffer())
+        if file_path:
+            with open(file_path, 'wb') as f:
+                f.write(pdf_file.getbuffer())
 
 
 class FullDataBaseWindow(ttk.Toplevel):
@@ -851,7 +855,7 @@ class AddCompuerWindow(ttk.Toplevel):
                 self.success.set('Компьютер успешно добавлен')
                 self.comp_obj.create(name, status, proc_id, moth_id)
                 self.update_editor()
-        except:
+        except Exception:
             self.error.set('*Ошибка в введенных данных')
             self.success.set('')
 
