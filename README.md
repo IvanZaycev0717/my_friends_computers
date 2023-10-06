@@ -1,8 +1,6 @@
 # :technologist: My Friends' Computers
 **My Friends' Computers** - это desktop-приложение на Python для учета компьютеров друзей, с возможностью добавления, чтения, редактирования, удаления данных о друзьях, их компьютеров и комплектующих, а также формирования и сохранения PDF-отчета.
 
-![my_friends](https://github.com/IvanZaycev0717/my_friends_computers/assets/111955306/42859074-ad4a-4901-931f-e0172e925f87)
-
 ## :atom: Технологии
 - Python 3.11 со стандартной библиотекой tkinter
 - SQLite
@@ -22,17 +20,11 @@
 
 ## :newspaper: Как пользоваться exe-версией My Friends' Computers
 1. Распакуйте архив из папки exe в любом месте. В папке MyFriendsComputers найдите exe-файл MyFriendsComputers.exe
-![1](https://github.com/IvanZaycev0717/my_friends_computers/assets/111955306/1881d65b-735f-4ebd-86ec-daf40563e94c)
-
 2. Вам откроется стартовое окно программы с предустановленной базой данных.
-![2](https://github.com/IvanZaycev0717/my_friends_computers/assets/111955306/4bc6fa0e-2290-42bb-bac5-16d577dd4702)
-
 3. Если вы хотите создать свою базу данных, просто удалите папку data c файлом database.db и вновь запустите программу. Данные обнулятся.
 4. После того как вы поработали с данными и хотите получить отчет о компьютерах друга надо выбрать друга в главном окне и нажать кнопку "Скачать PDF".
-![3](https://github.com/IvanZaycev0717/my_friends_computers/assets/111955306/c17ef7da-1819-4866-b2eb-1f9d25f60942)
 5. Выберите место для сохранения, и можете изменить название сохраняемого PDF-файла
 6. Чтобы прочитать или распечатать PDF-файла его нужно будет открыть любой программой для чтения PDF
-![4](https://github.com/IvanZaycev0717/my_friends_computers/assets/111955306/70ab90ff-d46e-4e12-aa26-b99414041584)
 
 
 ## Установка на локальный компьютер в коде Python
