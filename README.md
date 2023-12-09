@@ -1,7 +1,8 @@
 # :technologist: My Friends' Computers
 **My Friends' Computers** - это desktop-приложение на Python для учета компьютеров друзей, с возможностью добавления, чтения, редактирования, удаления данных о друзьях, их компьютеров и комплектующих, а также формирования и сохранения PDF-отчета.
 
-![2](https://github.com/IvanZaycev0717/my_friends_computers/assets/111955306/4bc6fa0e-2290-42bb-bac5-16d577dd4702)
+![my_friends](https://github.com/IvanZaycev0717/my_friends_computers/assets/111955306/42859074-ad4a-4901-931f-e0172e925f87)
+
 
 # Посмотреть, как выглядит интерфейс программы и как работает
 Вы можете ознакомиться с внешним видом и работой программы на сайте YouTube по этой [ссылке](https://youtu.be/HwhfAeMtmf8)
