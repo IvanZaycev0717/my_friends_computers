@@ -21,11 +21,6 @@
 - :family_man_man_girl_girl: Many-to-Many (Многие-ко-Многим)
 - :family_man_man_girl: Many-to-One (Один-ко-многим)
 
-## :floppy_disk: Exe-версия приложения для Windows
-1. Перейдите по ссылке https://drive.google.com/file/d/1zeWYr9kat39Vb8RHP3DNtzvUXy_dTX8W/view?usp=drive_link
-2. Скачайте zip-архив с программой My Friends Computers
-3. Распакуйте архив  в любое место
-4. Запустите "My Friends Comuters.exe"
 
 ## :newspaper: Как пользоваться exe-версией My Friends' Computers
 1. Распакуйте архив из папки exe в любом месте. В папке MyFriendsComputers найдите exe-файл MyFriendsComputers.exe
